@@ -1,0 +1,24 @@
+main{
+    background-color: rgb(15, 10, 20);
+}
+head{
+    background-color: azure;
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+h4{
+    text-align: center;
+    color: antiquewhite;
+}
+pre{
+    text-align: center;
+    color: white;
+}
+hr{
+    background-color: black;
+}
+img{
+    align-content: center;
+}
