@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 	<form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+	<font color = "red"><u><h1>Enter your Registration Details in this Form</h1></u></font>
+	First name: <input type="text“ name="firstname"><br>
+Last name: <input type="text" name="lastname">
+	<br><br><b>Enter your year of Study:</b>
+	<select name="Years">
+	<option value="1st year">First Year</option>
+	<option value="2nd year">Second Year</option>
+    <option value="3rd year" selected="selected">Third Year</option>
+<option value="4th year">Fourth Year</option>
+<option value="5th year">Fifth Year</option>
+</select>
+<br><br><b>Choose a semester:</b>
+	<select name="Sem">
+	<option value="sem 1">Trimester 1 </option>
+	<option value="sem 2">Trimester  2</option>
+	<option value="sem 3" selected="selected">Trimeste3  </option>
+	</select>
+    <br><br><b><u>Gender</u></b><br>
+	<input type="radio" name="sex" value="male">Male<br>
+	<input type="radio" name="sex" value="female">Female <hr>
+	<h3><u>Units Selection</u></h3>
+	<input type="checkbox" name="units" value="ICS 2201">ICS 2201 Introduction to IT<br>
+	<input type="checkbox" name="units" value="ICS 2202">ICS 2202 Introduction to programming<br>
+    <input type="checkbox" name="units" value="ICS 2203">ICS 2203 Internet Programming<br>
+	<input type="checkbox" name="units" value="SMA 1000">SMA 1000 Foundations of Maths<br>
+	<input type="checkbox" name="units" value="SMA 2204">SMA 2201 Algebra<br>
+	<input type="checkbox" name="units" value="SMA 2205">SMA 2205 Calculus<br>
+	<input type="checkbox" name="units" value="UCU 1001">UCU 1001 Communication Skills<br>
+	<input type="checkbox" name="units" value="UCU 1002">UCU 1002 Research Methods<br>
+	<input type="checkbox" name="units" value="ICS 1202">ICS 1202 Databases<br>
+	<hr>
+    <h4>Give your motivation in choosing the units</h4>
+	<textarea rows="10" cols="50">	
+	</textarea>
+	<hr>
+	<h4>Choose your preferred hostel</h4>
+	<input type="radio" name="hostel" value="usambara">Usambara<br>
+	<input type="radio" name="hostel" value="lukenya">Lukenys<br>
+	<input type="radio" name="hostel" value="green gardens">Green Gardens<br>
+	<input type="radio" name="hostel" value="usalama">Usalama<br>
+	<hr>	
+	<input type="submit"  value="Submit">
+	<input type="reset"  value="Reset">
+</form>
+</body>
+</html>
