@@ -1,0 +1,39 @@
+.black{
+    background-color: black;
+    color: white;
+    margin: 2px;
+    text-align: justify;
+    font-size: x-large;
+}
+.red{
+    background-color: red;
+    color: white;
+    margin: 2px;
+    text-align: justify;
+    font-size: x-large;
+}
+.green{
+    background-color: rgb(16, 195, 16);
+    color: white;
+    margin: 2px;
+    text-align: justify;
+    font-size: x-large;
+}
+.english{
+    float: left;
+    width: 48%;
+    margin: 2px;
+}
+.swahili{
+    float: right;
+    width: 48%;
+    margin: 2px;
+}
+h4{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    background-color: #0ac90a;
+    color: white;
+}
