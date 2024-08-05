@@ -1,0 +1,26 @@
+.nike{
+    float:left;
+    width: 49.8%
+}
+.puma{
+    float: right;
+    width: 49.9%;
+}
+.jordan{
+    float:left;
+    width: 49.8%
+}
+.Lacosle{
+    float: right;
+    width: 49.8%;
+}
+figcaption{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: brown;
+}
+header{
+    background-color: lightgreen;
+}
